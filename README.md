@@ -32,6 +32,7 @@ Sample input: (query Params)
 Sample Output:
 
 Success output: 
+
 {
     "avg_hr": {
         "0": 80.13381454747362,
