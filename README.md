@@ -5,6 +5,7 @@
 Method: POST
 
 Sample input:
+
 {
     "user_id": "saipriya",
     "timestamp": 1649144912,
@@ -24,8 +25,9 @@ Failed Status: 'Failed generating the values'
 Method: GET
 
 Sample input: (query Params)
-"user_id": "saipriya"
-"aggregate_min_level":  15/30/45/60
+
+"user_id": "saipriya" ,
+"aggregate_min_level":  15 or 30 or 45 or 60  (default 15min as session)
 
 Sample Output:
 
