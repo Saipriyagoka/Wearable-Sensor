@@ -3,6 +3,7 @@
 # Endpoints:
 # vitals_input:
 Method: POST
+
 Sample input:
 {
     "user_id": "saipriya",
@@ -13,17 +14,21 @@ Sample input:
 }
 
 Sample Output:
+
 Succes Status: 'Generated Succesfully'
+
 Failed Status: 'Failed generating the values'
 
 
 # vitals_output:
 Method: GET
+
 Sample input: (query Params)
 "user_id": "saipriya"
 "aggregate_min_level":  15/30/45/60
 
 Sample Output:
+
 Success output: 
 {
     "avg_hr": {
